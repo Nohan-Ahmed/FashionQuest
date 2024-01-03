@@ -64,7 +64,7 @@
         </nav>
         <!-- banner carousel section -->
         <section class="banner-section">
-            <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
                         aria-current="true" aria-label="Slide 1"></button>
@@ -74,18 +74,18 @@
                         aria-label="Slide 3"></button>
                 </div>
                 <div class="carousel-inner">
-                    <div class="carousel-item active">
+                    <div class="carousel-item active position-relative">
                         <img src="resources/slider-bg 1.png" class="d-block w-100" alt="slider-bg">
-                        <div class="carousel-caption d-none d-md-block">
-                            <div class="row justify-content-center ">
-                                <div class="col-8 text-start">
+                        <div class="carousel-caption d-md-block">
+                            <div class="row justify-content-center flex-lg-row flex-md-column">
+                                <div class="col-lg-8 col-12 text-start carousel-caption-text">
                                     <h5>Pro.Beyond.</h5>
                                     <h2>IPhone 14 Pro</h2>
                                     <p>Created to change everything for the better. For everyone</p>
-                                    <button type="button" class="btn btn-primary">Show Now</button>
+                                    <button type="button" class="btn btn-primary d-lg-block d-none">Show Now</button>
                                 </div>
-                                <div class="col">
-                                    <img class="img-fluid w-100" src="resources/Iphone Image.png" alt="Iphone 14 pro">
+                                <div class="col caption-img">
+                                    <img class="w-100" src="resources/Iphone Image.png" alt="Iphone 14 pro">
                                 </div>
                             </div>
                         </div>
@@ -98,10 +98,11 @@
                                     <h5>Pro.Beyond.</h5>
                                     <h2>IPhone 14 Pro</h2>
                                     <p>Created to change everything for the better. For everyone</p>
-                                    <button type="button" class="btn btn-primary">Show Now</button>
+                                    <button type="button" class="btn btn-primary d-md-none">Show Now</button>
                                 </div>
                                 <div class="col">
-                                    <img class="img-fluid w-100" src="resources/Iphone 14 pro 1-2.png" alt="Iphone 14 pro">
+                                    <img class="img-fluid w-100" src="resources/Iphone 14 pro 1-2.png"
+                                        alt="Iphone 14 pro">
                                 </div>
                             </div>
                         </div>
@@ -141,7 +142,7 @@
         <!-- feature products section -->
         <section class="container-fluid feature-section">
             <div class="row justify-content-between align-items-center ">
-                <div class="col-6 feature-section-left">
+                <div class="col-lg-6 col-12 feature-section-left">
                     <div class="row feature-section-left-container flex-column">
                         <div class="col feature-section-left-top">
                             <div class="row">
@@ -156,9 +157,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col feature-section-left-buttom">
+                        <div class="col feature-section-left-buttom ">
                             <div class="row justify-content-between align-items-center">
-                                <div class="col-7 feature-section-left-bottom-left">
+                                <div class="col-4 col-lg-7 feature-section-left-bottom-left">
                                     <!-- <img class="img-fluid w-100" src="resources/Iphone 14 pro 1.png" alt=""> -->
                                 </div>
                                 <div class="col feature-section-left-buttom-text">
@@ -170,7 +171,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6 feature-section-right">
+                <div class="col-12 col-lg-6 feature-section-right">
                     <div class="row justify-content-center align-items-center">
                         <div class="col-8">
                             <h2>Macbook <span>Air</span></h2>
@@ -197,63 +198,61 @@
                 </div>
             </div>
             <!-- category-card section  -->
-            <div class="row category-cards-section">
-                <div class="row">
-                    <div class="col">
-                        <div class="card category-card">
-                            <div class="card-body text-center">
-                                <i class="fa-solid fa-mobile"></i>
-                                <h3>Phones</h3>
-                            </div>
+            <div class="row row-cols-lg-6 row-cols-md-3 row-cols-2 gy-3 category-cards-section">
+                <div class="col">
+                    <div class="card category-card">
+                        <div class="card-body text-center">
+                            <i class="fa-solid fa-mobile"></i>
+                            <h3>Phones</h3>
                         </div>
                     </div>
-
-                    <div class="col">
-                        <div class="card category-card">
-                            <div class="card-body text-center">
-                                <i class="fa-solid fa-laptop"></i>
-                                <h3>Laptops</h3>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="card category-card">
-                            <div class="card-body text-center">
-                                <i class="fa-solid fa-camera"></i>
-                                <h3>Cameras</h3>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="card category-card">
-                            <div class="card-body text-center">
-                                <i class="fa-solid fa-headphones"></i>
-                                <h3>Headphones</h3>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="card category-card">
-                            <div class="card-body text-center">
-                                <i class="fa-solid fa-desktop"></i>
-                                <h3>Computers</h3>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="card category-card">
-                            <div class="card-body text-center">
-                                <i class="fa-solid fa-gamepad"></i>
-                                <h3>Gaming</h3>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
+
+                <div class="col">
+                    <div class="card category-card">
+                        <div class="card-body text-center">
+                            <i class="fa-solid fa-laptop"></i>
+                            <h3>Laptops</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card category-card">
+                        <div class="card-body text-center">
+                            <i class="fa-solid fa-camera"></i>
+                            <h3>Cameras</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card category-card">
+                        <div class="card-body text-center">
+                            <i class="fa-solid fa-headphones"></i>
+                            <h3>Headphones</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card category-card">
+                        <div class="card-body text-center">
+                            <i class="fa-solid fa-desktop"></i>
+                            <h3>Computers</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card category-card">
+                        <div class="card-body text-center">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <h3>Gaming</h3>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </section>
 
