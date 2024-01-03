@@ -25,11 +25,9 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 */
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) {
-}
 
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
-@media (max-width: 991.98px) {
+@media (min-width: 320px) and (max-width: 991.98px) {
   .carousel-item {
     height: auto !important;
   }
@@ -74,7 +72,6 @@ No media query since this is the default in Bootstrap because it is "mobile firs
   }
 }
 
-
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .navbar input {
@@ -109,6 +106,35 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 Custom media queries
 */
 
-/* Set width to make card deck cards 100% width */
-@media (max-width: 950px) {
+@media (min-width: 320px) and (max-width: 576px) {
+  .feature-section-right img {
+    width: 100% !important;
+    margin-top: 5rem;
+  }
+
+  .feature-section-right h2 {
+    padding-top: 3rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .feature-section-left-top-left {
+    height: 50vw;
+    margin-left: -5rem;
+  }
+
+  .feature-section-left-bottom-left {
+    height: 50vw;
+    margin-top: 1rem;
+    margin-left: -2rem;
+  }
+
+  .product-filter-section a{
+    font-size: 14px;
+  }
+  .category-section-header{
+    font-size: 1.2rem;
+  }
+  .about-section-child:last-child{
+    margin-left: 12rem;
+  }
 }
